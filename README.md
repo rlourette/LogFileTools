@@ -1,6 +1,7 @@
 # LogFileTools
 Utilities for processing Logiscend Log files
 
+```
 taglogparser.py [-a|-A] [-r|-R] [-c|-C] [-d] [-g] [-z <ServerHost.zip>] [-g <gateway ip of interest>] [-t <tag uid>] [-o <outputfile>])
 -a = report tag gateway affiliation for failed tag commands
 -A = report tag gateway affiliation for all tags
@@ -12,3 +13,4 @@ taglogparser.py [-a|-A] [-r|-R] [-c|-C] [-d] [-g] [-z <ServerHost.zip>] [-g <gat
 -c = report only failed tag commands
 -d = report only tags with command retries
 -G = Report a list of tags that have affiliated with each gateway
+```
